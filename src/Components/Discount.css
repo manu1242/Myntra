@@ -1,0 +1,20 @@
+.discount-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.discount-image {
+  cursor: pointer;
+  padding: 20px 40px 0px 40px;
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+}
+.image-dis {
+  width: 100%;
+}
+.Image-gif{
+    padding:0px 40px 10px 40px;
+    width: 100vw;
+}
