@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../assets/Hero.png";
 import Discount from "../Components/Discount";
+import Footer from '../Components/Footer'
 import "./LandingPage.css";
 const LandingPage = () => {
   return (
@@ -24,6 +25,7 @@ const LandingPage = () => {
       </div>
       <div className="discount-section">
         <Discount />
+        <Footer/>
       </div>
     </div>
   );
