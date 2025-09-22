@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.image{
+    width: 54px;
+    height: 37px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.container{
+    display: flex;
+    list-style-type: none;
+    gap:15px;  
+    cursor: pointer;
+    position: relative;
+}
+.searchinput{
+    width: 548px;
+    height: 40px;
+    margin:20px 10px;
+    padding-left: 40px;
+    margin-left: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 470;
+    background-color: rgba(236, 243, 243, 0.823);
+    border: none;
+}
+.list{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    padding:31px 10px ;
+    transition: border-bottom 0.1s;
+
+}
+.list:hover{
+    border-bottom: 3.1px solid black;
+}
+.list1{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500; 
+    margin-left: 40px;
+    padding: 31px 10px;
+    transition: border-bottom 0.1s;
+}
+.list1:hover{
+    border-bottom: 3.1px solid black;
+}
+.Navigation{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+.profile{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wishlist{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.bag{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+}
+.itemscontainer{
+    display: flex;
+    gap:20px;
+}
+.img1{
+    width: 25px;
+    height: 25px;
+}
+.img2{
+    width: 25px;
+    height: 25px;
+}
+.img3{
+    width: 25px;
+    height: 25px;
+}
+.prf{
+margin-top:20px;
+margin-left: 15px;
+}
+.wish{
+ margin-top: 20px;
+}
+.Bag{
+margin-top: 20px;
+}
+
+
+
+
+

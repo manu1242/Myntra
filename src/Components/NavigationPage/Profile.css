@@ -1,0 +1,42 @@
+.profileContainer{
+    padding:20px;
+  /*   padding-top:100px; */
+    width: 20%;
+    height: 450px;
+    text-align:justify;
+    margin-left: 75%;
+/* background-color: red; */
+}
+p{
+    font-size: 13px;
+    padding:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p:hover{
+    transform:translateX(1px);
+    cursor: pointer;
+    font-weight: 500;
+}
+.btn{
+    border:none;
+    font-weight: bold;
+    margin-top: 12px;
+    padding:10px;
+    margin-bottom: 13px;
+    color:rgb(234, 99, 99);
+    transition: border 0.1s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn:hover{
+   border:1px solid rgb(230, 99, 99);
+   cursor: pointer;
+}
+.orders{
+    padding-top:20px;
+}
+.Credit{
+    margin-top: 20px;
+}
+.inside{
+    margin-bottom: 15px;
+}
