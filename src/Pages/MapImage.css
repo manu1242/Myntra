@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1500px;
+}
+
+.img {
+  width: 250px;  
+  height: auto;   
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.last-container {
+  display: flex;
+  justify-content: center;
+ 
+  margin-top: 20px;
+}
+
+.last {
+  width: 230px;
+  height: auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
