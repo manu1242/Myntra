@@ -1,0 +1,46 @@
+.img {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    margin: 20px auto;
+    max-width: 1500px;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  
+}
+.banner2{
+    width:100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Lastimg {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    margin: 20px auto;
+    max-width: 1500px;
+
+}
+
+.Lastimg img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    margin-left: 300px;
+cursor: pointer;
+}
